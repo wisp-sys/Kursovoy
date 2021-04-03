@@ -1,0 +1,127 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V8.40.2.214/W32 for ARM         02/Apr/2021  21:58:27
+# Copyright 1999-2019 IAR Systems AB.
+#
+#    Cpu mode     =  
+#    Endian       =  little
+#    Source file  =  C:\Users\User\Documents\Kurs\Kurs\Tasks\mytask.cpp
+#    Command line =
+#        -f C:\Users\User\AppData\Local\Temp\EWA380.tmp
+#        (C:\Users\User\Documents\Kurs\Kurs\Tasks\mytask.cpp -lC
+#        C:\Users\User\Documents\Kurs\Kurs\Debug\List -lA
+#        C:\Users\User\Documents\Kurs\Kurs\Debug\List -o
+#        C:\Users\User\Documents\Kurs\Kurs\Debug\Obj --no_cse --no_unroll
+#        --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling
+#        --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp
+#        --dlib_config "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+#        8.3\arm\inc\c\DLib_Config_Normal.h" -I
+#        C:\Users\User\Documents\Kurs\Kurs\Rtos\ -I
+#        C:\Users\User\Documents\Kurs\Kurs\Rtos\wrapper\ -I
+#        C:\Users\User\Documents\Kurs\Kurs\Rtos\wrapper\FreeRtos\ -I
+#        C:\Users\User\Documents\Kurs\Kurs\Rtos\FreeRtos\ -I
+#        C:\Users\User\Documents\Kurs\Kurs\Rtos\FreeRtos\include\ -I
+#        C:\Users\User\Documents\Kurs\Kurs\Rtos\FreeRtos\portable\ -I
+#        C:\Users\User\Documents\Kurs\Kurs\Rtos\FreeRtos\portable\Common\ -I
+#        C:\Users\User\Documents\Kurs\Kurs\Rtos\FreeRtos\portable\IAR\ -I
+#        C:\Users\User\Documents\Kurs\Kurs\Rtos\FreeRtos\portable\IAR\ARM_CM4F\
+#        -I C:\Users\User\Documents\Kurs\Kurs\Rtos\FreeRtos\portable\MemMang\
+#        -I C:\Users\User\Documents\Kurs\Kurs\MyTasks\ -I
+#        C:\Users\User\Documents\Kurs\Kurs\Common\ -I
+#        C:\Users\User\Documents\Kurs\Kurs\CMSIS\ -I
+#        C:\Users\User\Documents\Kurs\Kurs\Application\ -I
+#        C:\Users\User\Documents\Kurs\Kurs\Application\Diagnostic\ -I
+#        C:\Users\User\Documents\Kurs\Kurs\AHardware\ -I
+#        C:\Users\User\Documents\Kurs\Kurs\AHardware\GpioPort\ -I
+#        C:\Users\User\Documents\Kurs\Kurs\AHardware\IrqController\ -I
+#        C:\Users\User\Documents\Kurs\Kurs\..\CortexLib\AbstractHardware\Pin\
+#        -I
+#        C:\Users\User\Documents\Kurs\Kurs\..\CortexLib\AbstractHardware\Registers\STM32F411\FieldValues\
+#        -I
+#        C:\Users\User\Documents\Kurs\Kurs\..\CortexLib\AbstractHardware\Registers\STM32F411\
+#        -I
+#        C:\Users\User\Documents\Kurs\Kurs\..\CortexLib\AbstractHardware\Registers\
+#        -I
+#        C:\Users\User\Documents\Kurs\Kurs\..\CortexLib\AbstractHardware\Port\
+#        -I
+#        C:\Users\User\Documents\Kurs\Kurs\..\CortexLib\AbstractHardware\Atomic\
+#        -I C:\Users\User\Documents\Kurs\Kurs\..\CortexLib\Common\ -I
+#        C:\Users\User\Documents\Kurs\Kurs\..\CortexLib\Common\Singleton\ -I
+#        C:\Users\User\Documents\Kurs\Kurs\..\CortexLib\Common\RomObject\ -I
+#        C:\Users\User\Documents\Kurs\Kurs\AHardware\Registers\ -I
+#        C:\Users\User\Documents\Kurs\Kurs\AHardware\Registers\CortexM4\ -I
+#        C:\Users\User\Documents\Kurs\Kurs\AHardware\Registers\CortexM4\FieldValues\
+#        -I C:\Users\User\Documents\Kurs\Kurs\AHardware\Registers\STM32F411\ -I
+#        C:\Users\User\Documents\Kurs\Kurs\AHardware\Registers\STM32F411\FieldValues\
+#        -I C:\Users\User\Documents\Kurs\Kurs\Common\ -I
+#        C:\Users\User\Documents\Kurs\Kurs\AHardware\Atomic\ -I
+#        C:\Users\User\Documents\Kurs\Kurs\AHardware\USART\ -I
+#        C:\Users\User\Documents\Kurs\Kurs\Tasks\ -I
+#        C:\Users\User\Documents\Kurs\Kurs\Application\Button\ -I
+#        C:\Users\User\Documents\Kurs\Kurs\Application\ -Ol --c++
+#        --no_exceptions --no_rtti)
+#    Locale       =  C
+#    List file    =  C:\Users\User\Documents\Kurs\Kurs\Debug\List\mytask.lst
+#    Object file  =  C:\Users\User\Documents\Kurs\Kurs\Debug\Obj\mytask.o
+#
+###############################################################################
+
+C:\Users\User\Documents\Kurs\Kurs\Tasks\mytask.cpp
+      1          /*******************************************************************************
+      2          * Filename  	: mytask.cpp
+      3          * 
+      4          * Details   	: Implementation of Execute() of MyTask class
+      5          *
+      6          * Author        : Sergey Kolody
+      7          *******************************************************************************/
+      8          #include "mytask.hpp"
+
+  #pragma once;
+              ^
+"C:\Users\User\Documents\Kurs\Kurs\Application\Button\userbutton.hpp",1  Error[Pe014]: 
+          extra text after expected end of preprocessing directive
+
+    UserButton(): Button;
+    ^
+"C:\Users\User\Documents\Kurs\Kurs\Application\Button\userbutton.hpp",6  Error[Pe260]: 
+          explicit type is missing ("int" assumed)
+
+    UserButton(): Button;
+                ^
+"C:\Users\User\Documents\Kurs\Kurs\Application\Button\userbutton.hpp",6  Error[Pe065]: 
+          expected a ";"
+
+  }
+  ^
+"C:\Users\User\Documents\Kurs\Kurs\Application\Button\userbutton.hpp",7  Warning[Pe1644]: 
+          definition at end of file not followed by a semicolon or a declarator
+
+  namespace OsWrapper
+  ^
+"C:\Users\User\Documents\Kurs\Kurs\Rtos\wrapper\event.hpp",22  Error[Pe065]: 
+          expected a ";"
+
+    MyTask(OsWrapper::Event& event, UserButton& button) : event(event), button(button)
+                                    ^
+"C:\Users\User\Documents\Kurs\Kurs\Tasks\mytask.hpp",16  Error[Pe020]: 
+          identifier "UserButton" is undefined
+
+    UserButton& button;
+    ^
+"C:\Users\User\Documents\Kurs\Kurs\Tasks\mytask.hpp",21  Error[Pe020]: 
+          identifier "UserButton" is undefined
+      9          
+     10          void MyTask::Execute()
+     11          { 
+     12            while(true) 
+     13            {
+     14              if (button.IsPressed())
+     15              {
+     16                event.Signal();
+     17              }
+     18              Sleep(300ms);
+     19            }
+     20          };
+
+Errors: 6
+Warnings: 1
